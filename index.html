@@ -1,40 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | FAQ Accordion Card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
-
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
-
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
-
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <section class="card">
+      <div class="card--header">
+        <h1 class="card--title">FAQ</h1>
+      </div>
+      <div class="card--content">
+        <details class="question">
+          <summary class="question--title">How many team members can I invite?</summary>
+          You can invite up to 2 additional users on the Free plan. There is no limit on
+          team members for the Premium plan.
+        </details>
+        <hr class="diveder">
+        <details class="question">
+          <summary class="question--title">What is the maximum file upload size?</summary>
+          No more than 2GB. All files in your account must fit your allotted storage space.
+        </details>
+        <hr class="diveder">
+        <details class="question">
+          <summary class="question--title">How do I reset my password?</summary>
+          Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.
+        </details>
+        <hr class="diveder">
+        <details class="question">
+          <summary class="question--title">Can I cancel my subscription?</summary>
+          Yes! Send us a message and we’ll process your request no questions asked.
+        </details>
+        <hr class="diveder">
+        <details class="question">
+          <summary class="question--title">Do you provide additional support?</summary>
+          Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        </details>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__signature">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          class="footer--link">Frontend Mentor</a>.</p>
+      <p>Coded by <a href="https://cannyro.github.io/hire_mr_canny/en" class="footer--link">WhatCannyDev</a>.</p>
+    </div>
+  </footer>
 </body>
+
 </html>
