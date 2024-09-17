@@ -46,6 +46,19 @@ main{
     background-color: var(--White);
     border-radius: 23px;
 }
+.card::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 212px;
+    background-image: url('./images/illustration-woman-online-mobile.svg'), url('./images/bg-pattern-mobile.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto 180px, 240px auto;
+    background-position: top center, top 108px center;
+}
 .card--header{
     width: 100%;
 }
@@ -110,4 +123,11 @@ footer{
     position: absolute;
     bottom: 0;
     text-align: center;
+    color: var(--White);
+}
+.footer--link{
+    color: var(--White);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.7px;
 }
