@@ -138,6 +138,10 @@ footer{
     letter-spacing: 0.7px;
 }
 @media(min-width: 1024px){
+    main{
+        padding: 130px 24px;
+        align-items: center;
+    }
     .card{
         padding: 65px 95px 82px 475px;
         width: 100%;
